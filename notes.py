@@ -21,5 +21,12 @@
 # average = (a+b)/2
 # print(average)
 #6) write a program to find the sq of numvber
-a = int(input("Enter a number:"))
-print("Square:",a*a)
+
+n = input()
+words = n.split()
+for words in words:
+ if len(words) % 2 == 0:
+    words = words[::-1]
+    print(words)
+else:
+    print(words)  
